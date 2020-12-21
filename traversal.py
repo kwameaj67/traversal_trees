@@ -5,10 +5,10 @@ class Node:
         self.right = None
         
 class BinaryTree:
-    def __init__(self,root):
-        self.root = Node(root)
+    def __init__(self,root): 
+        self.root = Node(root) #assigning root of tree
      
-    def print_tree(self,type):
+    def print_tree(self,type): #prints tree
         if type == "preorder":
             return self.preorder(tree.root,"")
         else:
